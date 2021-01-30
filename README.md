@@ -7,9 +7,16 @@
 ## Running
 
 ### Front 
-```npm install && npm run serve```
+```
+npm install
+npm run serve
+```
 
 ### Api
-```dotnet run```
+```
+dotnet restore
+dotnet build
+dotnet run
+```
 
 ###### Obs: You may have to change the port in churras-front/src/config/env.js if you run from Visual Studio
