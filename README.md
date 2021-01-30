@@ -11,3 +11,5 @@
 
 ### Api
 ```dotnet run```
+
+###### Obs: You may have to change the port in churras-front/src/config/env.js if you run from Visual Studio
