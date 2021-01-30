@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+
+body {
+    background-image: url('~@/assets/bg.png');
+    background-size: cover;
+    font-family: 'Raleway', Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: black;
+    margin: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #343a402f;
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.25);
+}

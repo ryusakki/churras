@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChurrasAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ChurrasAPI.Controllers.AgendaController.ListarChurrascos">
+            <summary>
+            Coleção de churrascos agendados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChurrasAPI.Controllers.AgendaController.ListarParticipantes(ChurrasAPI.Models.Evento)">
+            <summary>
+            Coleção de participantes de um churrasco
+            </summary>
+            <param name="evento"> Data do churrasco </param>
+            <returns></returns>
+        </member>
+        <member name="M:ChurrasAPI.Controllers.AgendaController.Participar(ChurrasAPI.Models.Requests.ParticiparChurrascoRequest)">
+            <summary>
+            Marca presença de um usuário em um churrasco
+            </summary>
+            <param name="request">Objeto do tipo 'ParticiparChurrascoRequest' com a data do churrasco e o email do usuário</param>
+            <returns>
+                Ok = Presença confirmada
+                Conflict = Usuário já confirmou presença
+                NotFound = Usuário não encontrado ou o churrasco não foi agendado
+                BadRequest = Ausência de dados
+            </returns>
+        </member>
+        <member name="M:ChurrasAPI.Controllers.AgendaController.AgendarChurrasco(ChurrasAPI.Models.Churrasco)">
+            <summary>
+            Agenda um churrasco em uma data específica
+            </summary>
+            <param name="c">Objeto do tipo 'Churrasco'</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
